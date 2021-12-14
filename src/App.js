@@ -1,35 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import Hello from './components/Hello';
-import Employee from './components/Employee';
+    import './App.css';  
+    import NavBar from './components/NavBar';
+    import Router from './components/Router';
 
-function App() {
-    return (
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
+    function App() {
+        return (
+                <div className="App">
+
+                    <NavBar/>
+                    <Router/>
             
-                    <p> test header </p>
-                    <p>
-                        {Hello()}
-                    </p>
-                    <p>
-                        <Employee></Employee>
-                    </p>
-                    <p>
-                        test text hello
-                    </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        Learn React
-                    </a>
-                </header>
-            </div>
-            );
-}
+                </div>
+                );
+    }
 
-export default App;
+    export default App;
