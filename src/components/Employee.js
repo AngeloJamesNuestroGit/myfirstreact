@@ -52,8 +52,8 @@ const Employee = () => {
                 <thead>
                     <tr>    
                         <td>Name</td>
-                        <td>Location</td>
                         <td>Department</td>
+                        <td>Location</td>
                         <td>Actions</td>
                     </tr>
                 </thead>
